@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:RGBA( 47, 79, 79, 1 );
+    color: #ccc;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.header-info img{
+    width: 70px;
+}
+.introuction{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.title{
+    border: 1px solid #ccc;
+    padding: 50px;
+}
+
+.title h1 {
+    margin: 15px 0;
+}
+.title h2, .flexend {
+    display: flex;
+}
+
+.flexstart{
+    justify-content: flex-start;
+}
+
+.flexend{
+    justify-content: flex-end;
+}
+
+.container-carousel{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.container-carousel h2 {
+    color: black;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.container{
+    margin-bottom: 10px;
+}
+
+.container-cards{
+    width: 90%;
+    margin: auto;
+}
+
+.container-cards h4, h3{
+    text-transform: uppercase;
+}
+
+.img-carousel {
+    height: 100vh;
+    margin: auto;
+    width: 90%;
+}
+
+.my-card{
+    height: 90vh;
+}
+
+.my-card img{
+    padding: 5px;
+    object-fit: cover;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}  
+
+.card-title{
+    margin-bottom: 15px;
+}
+
+.card-subtitle{
+    margin-bottom: 30px;
+}
+
+footer, header{
+    background-color: black;
+}
+
+footer{
+    padding: 5px 0;
+}
+.section-info{
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials ul{
+    display: flex;
+    margin: 0;
+    font-size: 30px;
+}
+
+.socials li{
+    list-style: none;
+    margin-left: 40px;
+}
+
+.socials li a{
+    text-decoration: none;
+    color: inherit;
+}
